@@ -12,6 +12,8 @@
 		87542FCB2015DAEC00E72C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87542FC92015DAEC00E72C27 /* Main.storyboard */; };
 		87542FCD2015DAEC00E72C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87542FCC2015DAEC00E72C27 /* Assets.xcassets */; };
 		87542FD02015DAEC00E72C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87542FCE2015DAEC00E72C27 /* LaunchScreen.storyboard */; };
+		87542FD82015DCAC00E72C27 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87542FD72015DCAC00E72C27 /* SecondViewController.swift */; };
+		87542FDA2015DF5300E72C27 /* OpenAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87542FD92015DF5300E72C27 /* OpenAppController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		87542FCC2015DAEC00E72C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87542FCF2015DAEC00E72C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87542FD12015DAEC00E72C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87542FD72015DCAC00E72C27 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		87542FD92015DF5300E72C27 /* OpenAppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenAppController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				87542FCC2015DAEC00E72C27 /* Assets.xcassets */,
 				87542FCE2015DAEC00E72C27 /* LaunchScreen.storyboard */,
 				87542FD12015DAEC00E72C27 /* Info.plist */,
+				87542FD72015DCAC00E72C27 /* SecondViewController.swift */,
+				87542FD92015DF5300E72C27 /* OpenAppController.swift */,
 			);
 			path = SeguePractice;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87542FD82015DCAC00E72C27 /* SecondViewController.swift in Sources */,
+				87542FDA2015DF5300E72C27 /* OpenAppController.swift in Sources */,
 				87542FC82015DAEC00E72C27 /* ViewController.swift in Sources */,
 				87542FC62015DAEC00E72C27 /* AppDelegate.swift in Sources */,
 			);
